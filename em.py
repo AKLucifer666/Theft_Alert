@@ -9,7 +9,7 @@ import os
 
 def notify(filename):
 	email_sender = "Enter email of sender"
-	password = "Create a new app password with the name python in the email settings and paste the password here"
+	password = "Dont enter your gmail password here, read the README file for better understanding"
 	email_receiver = "Enter email of receiver"
 	subject="Person Detected"
 	body="Person Detected at {}".format(str(datetime.now()))
